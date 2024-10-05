@@ -1,0 +1,8 @@
+module load intel
+module load lapack
+
+
+module load gsl
+module load mkl
+make
+./FitGLE.x ../trj/aa.trj 2048 fw.dat fl.dat fepsilon.dat

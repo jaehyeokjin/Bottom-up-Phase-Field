@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#SBATCH --partition=gavoth
+#SBATCH --ntasks=1
+#SBATCH --job-name=FM.OUT
+#SBATCH --output=fm.out
+
+module load gsl/2.2.1+intel-15.0
+module load mkl/11.2
+
+./FitGLE.x force.lmpstrj 64
+
