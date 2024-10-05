@@ -1,0 +1,7 @@
+module load intel
+module load lapack
+
+
+module load gsl
+module load mkl
+./FitGLE.x ./aa.lammpstrj 2048

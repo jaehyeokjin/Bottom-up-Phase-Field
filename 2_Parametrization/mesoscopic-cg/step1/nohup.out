@@ -1,0 +1,182 @@
+Initializing FitGLE parameters...
+info->start = 0.000000
+info->end = 1.00000
+info->boxLengthX = 31.4526
+info->boxLengthY = 29.7932
+info->boxLengthZ = 68.7328
+info->outputPrecision = 0.05
+info->splineOrder = 4
+info->numSplines = 40
+info->steps = 500
+
+set up trajectory files
+finishing initializing trajectory frames, 2048 Particles
+set up b-spline data structures
+set up containers
+finishing configuration, entering normal equation accumulation
+Accumulating the LSQ normal Matrix
+finishing step 1 (total 500)finishing step 2 (total 500)finishing step 3 (total 500)finishing step 4 (total 500)finishing step 5 (total 500)finishing step 6 (total 500)finishing step 7 (total 500)finishing step 8 (total 500)finishing step 9 (total 500)finishing step 10 (total 500)finishing step 11 (total 500)finishing step 12 (total 500)finishing step 13 (total 500)finishing step 14 (total 500)finishing step 15 (total 500)finishing step 16 (total 500)finishing step 17 (total 500)finishing step 18 (total 500)finishing step 19 (total 500)finishing step 20 (total 500)finishing step 21 (total 500)finishing step 22 (total 500)finishing step 23 (total 500)finishing step 24 (total 500)finishing step 25 (total 500)finishing step 26 (total 500)finishing step 27 (total 500)finishing step 28 (total 500)finishing step 29 (total 500)finishing step 30 (total 500)finishing step 31 (total 500)finishing step 32 (total 500)finishing step 33 (total 500)finishing step 34 (total 500)finishing step 35 (total 500)finishing step 36 (total 500)finishing step 37 (total 500)finishing step 38 (total 500)finishing step 39 (total 500)finishing step 40 (total 500)finishing step 41 (total 500)finishing step 42 (total 500)finishing step 43 (total 500)finishing step 44 (total 500)finishing step 45 (total 500)finishing step 46 (total 500)finishing step 47 (total 500)finishing step 48 (total 500)finishing step 49 (total 500)finishing step 50 (total 500)finishing step 51 (total 500)finishing step 52 (total 500)finishing step 53 (total 500)finishing step 54 (total 500)finishing step 55 (total 500)finishing step 56 (total 500)finishing step 57 (total 500)finishing step 58 (total 500)finishing step 59 (total 500)finishing step 60 (total 500)finishing step 61 (total 500)finishing step 62 (total 500)finishing step 63 (total 500)finishing step 64 (total 500)finishing step 65 (total 500)finishing step 66 (total 500)finishing step 67 (total 500)finishing step 68 (total 500)finishing step 69 (total 500)finishing step 70 (total 500)finishing step 71 (total 500)finishing step 72 (total 500)finishing step 73 (total 500)finishing step 74 (total 500)finishing step 75 (total 500)finishing step 76 (total 500)finishing step 77 (total 500)finishing step 78 (total 500)finishing step 79 (total 500)finishing step 80 (total 500)finishing step 81 (total 500)finishing step 82 (total 500)finishing step 83 (total 500)finishing step 84 (total 500)finishing step 85 (total 500)finishing step 86 (total 500)finishing step 87 (total 500)finishing step 88 (total 500)finishing step 89 (total 500)finishing step 90 (total 500)finishing step 91 (total 500)finishing step 92 (total 500)finishing step 93 (total 500)finishing step 94 (total 500)finishing step 95 (total 500)finishing step 96 (total 500)finishing step 97 (total 500)finishing step 98 (total 500)finishing step 99 (total 500)finishing step 100 (total 500)finishing step 101 (total 500)finishing step 102 (total 500)finishing step 103 (total 500)finishing step 104 (total 500)finishing step 105 (total 500)finishing step 106 (total 500)finishing step 107 (total 500)finishing step 108 (total 500)finishing step 109 (total 500)finishing step 110 (total 500)finishing step 111 (total 500)finishing step 112 (total 500)finishing step 113 (total 500)finishing step 114 (total 500)finishing step 115 (total 500)finishing step 116 (total 500)finishing step 117 (total 500)finishing step 118 (total 500)finishing step 119 (total 500)finishing step 120 (total 500)finishing step 121 (total 500)finishing step 122 (total 500)finishing step 123 (total 500)finishing step 124 (total 500)finishing step 125 (total 500)finishing step 126 (total 500)finishing step 127 (total 500)finishing step 128 (total 500)finishing step 129 (total 500)finishing step 130 (total 500)finishing step 131 (total 500)finishing step 132 (total 500)finishing step 133 (total 500)finishing step 134 (total 500)finishing step 135 (total 500)finishing step 136 (total 500)finishing step 137 (total 500)finishing step 138 (total 500)finishing step 139 (total 500)finishing step 140 (total 500)finishing step 141 (total 500)finishing step 142 (total 500)finishing step 143 (total 500)finishing step 144 (total 500)finishing step 145 (total 500)finishing step 146 (total 500)finishing step 147 (total 500)finishing step 148 (total 500)finishing step 149 (total 500)finishing step 150 (total 500)finishing step 151 (total 500)finishing step 152 (total 500)finishing step 153 (total 500)finishing step 154 (total 500)finishing step 155 (total 500)finishing step 156 (total 500)finishing step 157 (total 500)finishing step 158 (total 500)finishing step 159 (total 500)finishing step 160 (total 500)finishing step 161 (total 500)finishing step 162 (total 500)finishing step 163 (total 500)finishing step 164 (total 500)finishing step 165 (total 500)finishing step 166 (total 500)finishing step 167 (total 500)finishing step 168 (total 500)finishing step 169 (total 500)finishing step 170 (total 500)finishing step 171 (total 500)finishing step 172 (total 500)finishing step 173 (total 500)finishing step 174 (total 500)finishing step 175 (total 500)finishing step 176 (total 500)finishing step 177 (total 500)finishing step 178 (total 500)finishing step 179 (total 500)finishing step 180 (total 500)finishing step 181 (total 500)finishing step 182 (total 500)finishing step 183 (total 500)finishing step 184 (total 500)finishing step 185 (total 500)finishing step 186 (total 500)finishing step 187 (total 500)finishing step 188 (total 500)finishing step 189 (total 500)finishing step 190 (total 500)finishing step 191 (total 500)finishing step 192 (total 500)finishing step 193 (total 500)finishing step 194 (total 500)finishing step 195 (total 500)finishing step 196 (total 500)finishing step 197 (total 500)finishing step 198 (total 500)finishing step 199 (total 500)finishing step 200 (total 500)finishing step 201 (total 500)finishing step 202 (total 500)finishing step 203 (total 500)finishing step 204 (total 500)finishing step 205 (total 500)finishing step 206 (total 500)finishing step 207 (total 500)finishing step 208 (total 500)finishing step 209 (total 500)finishing step 210 (total 500)finishing step 211 (total 500)finishing step 212 (total 500)finishing step 213 (total 500)finishing step 214 (total 500)finishing step 215 (total 500)finishing step 216 (total 500)finishing step 217 (total 500)finishing step 218 (total 500)finishing step 219 (total 500)finishing step 220 (total 500)finishing step 221 (total 500)finishing step 222 (total 500)finishing step 223 (total 500)finishing step 224 (total 500)finishing step 225 (total 500)finishing step 226 (total 500)finishing step 227 (total 500)finishing step 228 (total 500)finishing step 229 (total 500)finishing step 230 (total 500)finishing step 231 (total 500)finishing step 232 (total 500)finishing step 233 (total 500)finishing step 234 (total 500)finishing step 235 (total 500)finishing step 236 (total 500)finishing step 237 (total 500)finishing step 238 (total 500)finishing step 239 (total 500)finishing step 240 (total 500)finishing step 241 (total 500)finishing step 242 (total 500)finishing step 243 (total 500)finishing step 244 (total 500)finishing step 245 (total 500)finishing step 246 (total 500)finishing step 247 (total 500)finishing step 248 (total 500)finishing step 249 (total 500)finishing step 250 (total 500)finishing step 251 (total 500)finishing step 252 (total 500)finishing step 253 (total 500)finishing step 254 (total 500)finishing step 255 (total 500)finishing step 256 (total 500)finishing step 257 (total 500)finishing step 258 (total 500)finishing step 259 (total 500)finishing step 260 (total 500)finishing step 261 (total 500)finishing step 262 (total 500)finishing step 263 (total 500)finishing step 264 (total 500)finishing step 265 (total 500)finishing step 266 (total 500)finishing step 267 (total 500)finishing step 268 (total 500)finishing step 269 (total 500)finishing step 270 (total 500)finishing step 271 (total 500)finishing step 272 (total 500)finishing step 273 (total 500)finishing step 274 (total 500)finishing step 275 (total 500)finishing step 276 (total 500)finishing step 277 (total 500)finishing step 278 (total 500)finishing step 279 (total 500)finishing step 280 (total 500)finishing step 281 (total 500)finishing step 282 (total 500)finishing step 283 (total 500)finishing step 284 (total 500)finishing step 285 (total 500)finishing step 286 (total 500)finishing step 287 (total 500)finishing step 288 (total 500)finishing step 289 (total 500)finishing step 290 (total 500)finishing step 291 (total 500)finishing step 292 (total 500)finishing step 293 (total 500)finishing step 294 (total 500)finishing step 295 (total 500)finishing step 296 (total 500)finishing step 297 (total 500)finishing step 298 (total 500)finishing step 299 (total 500)finishing step 300 (total 500)finishing step 301 (total 500)finishing step 302 (total 500)finishing step 303 (total 500)finishing step 304 (total 500)finishing step 305 (total 500)finishing step 306 (total 500)finishing step 307 (total 500)finishing step 308 (total 500)finishing step 309 (total 500)finishing step 310 (total 500)finishing step 311 (total 500)finishing step 312 (total 500)finishing step 313 (total 500)finishing step 314 (total 500)finishing step 315 (total 500)finishing step 316 (total 500)finishing step 317 (total 500)finishing step 318 (total 500)finishing step 319 (total 500)finishing step 320 (total 500)finishing step 321 (total 500)finishing step 322 (total 500)finishing step 323 (total 500)finishing step 324 (total 500)finishing step 325 (total 500)finishing step 326 (total 500)finishing step 327 (total 500)finishing step 328 (total 500)finishing step 329 (total 500)finishing step 330 (total 500)finishing step 331 (total 500)finishing step 332 (total 500)finishing step 333 (total 500)finishing step 334 (total 500)finishing step 335 (total 500)finishing step 336 (total 500)finishing step 337 (total 500)finishing step 338 (total 500)finishing step 339 (total 500)finishing step 340 (total 500)finishing step 341 (total 500)finishing step 342 (total 500)finishing step 343 (total 500)finishing step 344 (total 500)finishing step 345 (total 500)finishing step 346 (total 500)finishing step 347 (total 500)finishing step 348 (total 500)finishing step 349 (total 500)finishing step 350 (total 500)finishing step 351 (total 500)finishing step 352 (total 500)finishing step 353 (total 500)finishing step 354 (total 500)finishing step 355 (total 500)finishing step 356 (total 500)finishing step 357 (total 500)finishing step 358 (total 500)finishing step 359 (total 500)finishing step 360 (total 500)finishing step 361 (total 500)finishing step 362 (total 500)finishing step 363 (total 500)finishing step 364 (total 500)finishing step 365 (total 500)finishing step 366 (total 500)finishing step 367 (total 500)finishing step 368 (total 500)finishing step 369 (total 500)finishing step 370 (total 500)finishing step 371 (total 500)finishing step 372 (total 500)finishing step 373 (total 500)finishing step 374 (total 500)finishing step 375 (total 500)finishing step 376 (total 500)finishing step 377 (total 500)finishing step 378 (total 500)finishing step 379 (total 500)finishing step 380 (total 500)finishing step 381 (total 500)finishing step 382 (total 500)finishing step 383 (total 500)finishing step 384 (total 500)finishing step 385 (total 500)finishing step 386 (total 500)finishing step 387 (total 500)finishing step 388 (total 500)finishing step 389 (total 500)finishing step 390 (total 500)finishing step 391 (total 500)finishing step 392 (total 500)finishing step 393 (total 500)finishing step 394 (total 500)finishing step 395 (total 500)finishing step 396 (total 500)finishing step 397 (total 500)finishing step 398 (total 500)finishing step 399 (total 500)finishing step 400 (total 500)finishing step 401 (total 500)finishing step 402 (total 500)finishing step 403 (total 500)finishing step 404 (total 500)finishing step 405 (total 500)finishing step 406 (total 500)finishing step 407 (total 500)finishing step 408 (total 500)finishing step 409 (total 500)finishing step 410 (total 500)finishing step 411 (total 500)finishing step 412 (total 500)finishing step 413 (total 500)finishing step 414 (total 500)finishing step 415 (total 500)finishing step 416 (total 500)finishing step 417 (total 500)finishing step 418 (total 500)finishing step 419 (total 500)finishing step 420 (total 500)finishing step 421 (total 500)finishing step 422 (total 500)finishing step 423 (total 500)finishing step 424 (total 500)finishing step 425 (total 500)finishing step 426 (total 500)finishing step 427 (total 500)finishing step 428 (total 500)finishing step 429 (total 500)finishing step 430 (total 500)finishing step 431 (total 500)finishing step 432 (total 500)finishing step 433 (total 500)finishing step 434 (total 500)finishing step 435 (total 500)finishing step 436 (total 500)finishing step 437 (total 500)finishing step 438 (total 500)finishing step 439 (total 500)finishing step 440 (total 500)finishing step 441 (total 500)finishing step 442 (total 500)finishing step 443 (total 500)finishing step 444 (total 500)finishing step 445 (total 500)finishing step 446 (total 500)finishing step 447 (total 500)finishing step 448 (total 500)finishing step 449 (total 500)finishing step 450 (total 500)finishing step 451 (total 500)finishing step 452 (total 500)finishing step 453 (total 500)finishing step 454 (total 500)finishing step 455 (total 500)finishing step 456 (total 500)finishing step 457 (total 500)finishing step 458 (total 500)finishing step 459 (total 500)finishing step 460 (total 500)finishing step 461 (total 500)finishing step 462 (total 500)finishing step 463 (total 500)finishing step 464 (total 500)finishing step 465 (total 500)finishing step 466 (total 500)finishing step 467 (total 500)finishing step 468 (total 500)finishing step 469 (total 500)finishing step 470 (total 500)finishing step 471 (total 500)finishing step 472 (total 500)finishing step 473 (total 500)finishing step 474 (total 500)finishing step 475 (total 500)finishing step 476 (total 500)finishing step 477 (total 500)finishing step 478 (total 500)finishing step 479 (total 500)finishing step 480 (total 500)finishing step 481 (total 500)finishing step 482 (total 500)finishing step 483 (total 500)finishing step 484 (total 500)finishing step 485 (total 500)finishing step 486 (total 500)finishing step 487 (total 500)finishing step 488 (total 500)finishing step 489 (total 500)finishing step 490 (total 500)finishing step 491 (total 500)finishing step 492 (total 500)finishing step 493 (total 500)finishing step 494 (total 500)finishing step 495 (total 500)finishing step 496 (total 500)finishing step 497 (total 500)finishing step 498 (total 500)finishing step 499 (total 500)finishing step 500 (total 500)
+m 0 0.000000
+m 1 0.000094
+m 2 0.000461
+m 3 0.007104
+m 4 -0.000893
+m 5 0.070264
+m 6 0.180985
+m 7 0.236641
+m 8 0.253182
+m 9 -0.114517
+m 10 0.478512
+m 11 0.702731
+m 12 0.836483
+m 13 2.240350
+m 14 0.497988
+m 15 0.999589
+m 16 1.593778
+m 17 0.759423
+m 18 3.012284
+m 19 1.620627
+m 20 -0.011588
+m 21 -2.097279
+m 22 2.569498
+m 23 -1.793159
+m 24 -4.813844
+m 25 -1.530810
+m 26 -4.190685
+m 27 -5.722050
+m 28 -7.429184
+m 29 -4.296421
+m 30 -7.532916
+m 31 -11.808617
+m 32 -14.223196
+m 33 -4.738706
+m 34 -16.317238
+m 35 -17.088790
+m 36 -19.036252
+m 37 -22.463370
+m 38 -24.815799
+m 39 -69.707067
+m 40 0.000000
+m 41 3.474020
+m 42 2.304219
+m 43 3.340211
+m 44 0.799757
+m 45 4.425480
+m 46 8.793811
+m 47 7.040042
+m 48 4.775165
+m 49 -0.883351
+m 50 4.501202
+m 51 4.295161
+m 52 4.725624
+m 53 8.642078
+m 54 2.034613
+m 55 2.241934
+m 56 3.799919
+m 57 1.891311
+m 58 3.663312
+m 59 2.057190
+m 60 0.868801
+m 61 -1.937743
+m 62 1.549387
+m 63 -0.770988
+m 64 -1.862930
+m 65 -0.358563
+m 66 -1.017529
+m 67 -0.985689
+m 68 -1.087847
+m 69 -0.459073
+m 70 -0.528139
+m 71 -0.635729
+m 72 -0.511940
+m 73 -0.108960
+m 74 -0.141842
+m 75 -0.093673
+m 76 -0.017578
+m 77 -0.005540
+m 78 -0.000295
+m 79 0.000060
+m 80 0.000000
+m 81 0.000736
+m 82 0.001365
+m 83 0.012052
+m 84 0.000044
+m 85 0.054949
+m 86 0.123634
+m 87 0.133407
+m 88 0.118887
+m 89 -0.039343
+m 90 0.169357
+m 91 0.206498
+m 92 0.235826
+m 93 0.534508
+m 94 0.121411
+m 95 0.185596
+m 96 0.304042
+m 97 0.150764
+m 98 0.416826
+m 99 0.228026
+m 100 0.055993
+m 101 -0.252430
+m 102 0.248780
+m 103 -0.146008
+m 104 -0.369036
+m 105 -0.089959
+m 106 -0.249433
+m 107 -0.282695
+m 108 -0.333400
+m 109 -0.160713
+m 110 -0.222236
+m 111 -0.296377
+m 112 -0.281220
+m 113 -0.069805
+m 114 -0.137313
+m 115 -0.104063
+m 116 -0.039488
+m 117 -0.019014
+m 118 -0.003322
+m 119 0.000728
+m 120 0.000000
+m 121 0.000330
+m 122 0.002255
+m 123 0.021461
+m 124 0.001664
+m 125 0.075410
+m 126 0.209723
+m 127 0.222392
+m 128 0.197785
+m 129 -0.141712
+m 130 0.384729
+m 131 0.292477
+m 132 0.321467
+m 133 0.738272
+m 134 0.384392
+m 135 0.395298
+m 136 0.874451
+m 137 0.413930
+m 138 0.676582
+m 139 0.595261
+m 140 0.170578
+m 141 -0.243819
+m 142 0.762652
+m 143 -0.104601
+m 144 -0.609426
+m 145 -0.059830
+m 146 -0.458246
+m 147 -0.335734
+m 148 -0.579727
+m 149 -0.167211
+m 150 -0.267081
+m 151 -0.465003
+m 152 -0.501067
+m 153 -0.135124
+m 154 -0.247509
+m 155 -0.212335
+m 156 -0.089930
+m 157 -0.055601
+m 158 -0.015979
+m 159 -0.001543
+LSQ Solver Info: 0
+output
+Exiting the Fitting GLE process...
+cleaning up Frame Information
