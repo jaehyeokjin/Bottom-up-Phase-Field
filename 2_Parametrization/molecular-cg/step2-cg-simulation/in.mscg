@@ -1,0 +1,39 @@
+# MeNH with Neopentane Simulations
+
+units		real
+atom_style	full
+boundary        p p p
+ 
+read_data 	data.mscg
+
+#tells lammps what kind of interactions are in the system
+
+pair_style      hybrid/overlay sw table spline 2500 
+
+pair_coeff      *   *   sw wat.sw WAT
+pair_coeff      1   1   table fm.table        WAT_WAT
+
+# neighbor	5.0 bin
+# neigh_modify 	delay 0
+neighbor        2.0 multi
+neigh_modify  	delay 0
+# neigh_modify    every 2 delay 4 check yes
+
+variable        input index in.mscg
+variable        sname index mscg
+
+timestep	1.0
+velocity 	all create 200.0 4928459 rot yes dist gaussian
+fix             3 all nvt temp 200.0 200.0 100.0
+compute         msd all msd
+thermo          500
+thermo_style    custom step etotal ke temp pe ebond eangle edihed eimp evdwl ecoul elong press vol c_msd[4]
+thermo_modify   line multi
+restart         1000000 ${sname}_nvt.*.restart
+dump            1 all custom 1000 ${sname}_nvt.lammpstrj id type x y z fx fy fz
+dump_modify     1 sort id
+run             50000000
+unfix           3
+undump          1
+
+
