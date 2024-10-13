@@ -1,0 +1,88 @@
+units           real
+atom_style      full
+boundary        p p p
+dielectric      1
+special_bonds   lj/coul 0.0 0.0 1.0 
+
+pair_style      lj/cut/tip4p/long 2 1 1 1 0.1546 10  
+bond_style      harmonic  
+angle_style     harmonic  
+dihedral_style  none
+improper_style  none
+
+kspace_style    pppm/tip4p 0.001   
+
+read_data	interface.data
+set type 1 charge 0.55640
+set type 2 charge -1.11280
+
+pair_modify     mix geometric
+neighbor        2.0 multi
+neigh_modify    delay 0
+
+thermo_style    multi
+variable        input index in.interface
+variable        sname index interface
+
+dump            1 all atom 25 ${sname}.min.lammpstrj
+dump_modify     1 image yes scale yes
+thermo          10
+min_style       sd
+minimize        1.0e-4 1.0e-4 500 5000
+min_style       cg
+minimize        1.0e-4 1.0e-4 500 5000
+#now minimize the entire system
+minimize        1.0e-4 1.0e-4 500 5000
+undump          1
+
+timestep        1.0
+reset_timestep  0
+
+print =====================================
+print "Heating 0K -> 300K"
+print =====================================
+print            .
+
+velocity        all create 249.0 492849 dist gaussian
+
+fix             shakeH all shake 1e-6 200 0 b 1 a 1
+fix             3 all nvt temp 249.0 249.0 100.0
+compute         msd all msd
+thermo          1000
+thermo_style    custom step etotal ke temp pe ebond eangle edihed eimp evdwl ecoul elong press vol c_msd[4]
+thermo_modify   line multi
+restart         100000 ${sname}_pre.*.restart
+dump            1 all custom 1000 ${sname}_pre.lammpstrj id type x y z vx vy vz fx fy fz
+dump_modify     1 sort id
+run             200000
+unfix           3
+unfix		shakeH
+undump          1
+
+fix             shakeH all shake 1e-6 200 0 b 1 a 1
+fix             2 all npt temp 249.0 249.0 100.0 iso 1.0 1.0 1000.0
+fix             nodrift all recenter INIT INIT INIT units box
+thermo          1000
+thermo_style    custom step etotal ke temp pe ebond eangle edihed eimp evdwl ecoul elong press vol c_msd[4] 
+thermo_modify   line multi
+restart         100000 ${sname}_npt.*.restart
+dump            1 all custom 1000 ${sname}_npt.lammpstrj id type x y z vx vy vz fx fy fz
+dump_modify     1 sort id
+run		400000
+unfix           2
+unfix		shakeH
+unfix		nodrift
+undump          1
+
+fix             shakeH all shake 1e-6 200 0 b 1 a 1
+fix             33 all nvt temp 249.0 249.0 100.0
+thermo          1000
+thermo_style    custom step etotal ke temp pe ebond eangle edihed eimp evdwl ecoul elong press vol c_msd[4]
+thermo_modify   line multi
+restart         100000 ${sname}_nvt.*.restart
+dump            1 all custom 1000 ${sname}_nvt.lammpstrj id type x y z vx vy vz fx fy fz
+dump_modify     1 sort id
+run             5000000
+unfix           33
+unfix		shakeH
+undump          1
