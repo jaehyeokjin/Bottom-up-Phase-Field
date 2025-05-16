@@ -1,0 +1,42 @@
+units           real
+atom_style      full
+boundary        p p p
+dielectric      1
+special_bonds   lj/coul 0.0 0.0 1.0 
+
+pair_style      lj/cut/tip4p/long 2 1 1 1 0.1546 10  
+bond_style      harmonic  
+angle_style     harmonic  
+dihedral_style  none
+improper_style  none
+
+kspace_style    pppm/tip4p 0.001   
+
+read_restart	interface_nvt.5600000.restart
+set type 1 charge 0.55640
+set type 2 charge -1.11280
+
+pair_modify     mix geometric
+neighbor        2.0 multi
+neigh_modify    delay 0
+
+thermo_style    multi
+variable        input index in.interface
+variable        sname index interface
+
+timestep        2.5
+reset_timestep  0
+
+fix             shakeH all shake 1e-6 200 0 b 1 a 1
+fix             33 all nvt temp 249.0 249.0 100.0
+compute         msd all msd
+thermo          1000
+thermo_style    custom step etotal ke temp pe ebond eangle edihed eimp evdwl ecoul elong press vol c_msd[4]
+thermo_modify   line multi
+restart         5000000 ${sname}_nvt.*.restart
+dump            1 all custom 1000 ${sname}_nvt.lammpstrj id type x y z vx vy vz fx fy fz
+dump_modify     1 sort id
+run             50000000
+unfix           33
+unfix		shakeH
+undump          1
